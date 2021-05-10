@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">chess</string>
+    <string name="question">Voulez-vous définir une limite de temps ?</string>
+    <string name="timer">Temps par coup par minute</string>
+    <string name="duree">Durée totale de la partie : %1$s</string>
+    <string name="gagne">Les blancs ont gagné</string>
+    <string name="perdu">Les blancs ont perdu</string>
+    <string name="egalite">Egalité</string>
+    <string name="ecoule">Perdu... Le temps est écoulé</string>
+</resources>

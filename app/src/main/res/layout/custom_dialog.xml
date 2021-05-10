@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background=  "@drawable/fond_blanc"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bouton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        app:backgroundTint="#3F51B5"
+        android:clickable="true"
+        android:text="OUI"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:visibility="visible"
+        android:translationX="80dp" />
+
+    <Button
+        android:id="@+id/bouton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        app:backgroundTint="#3F51B5"
+        android:clickable="true"
+        android:text="NON"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:visibility="visible"
+        android:translationX="190dp" />
+    <Button
+        android:id="@+id/bouton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        app:backgroundTint="#3F51B5"
+        android:clickable="true"
+        android:text="OK"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        tools:visibility="invisible"
+        android:translationX="140dp" />
+
+    <Button
+        android:id="@+id/bouton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:clickable="true"
+        android:text="Redémarrer le jeu"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:visibility="invisible"
+        app:backgroundTint="#3F51B5"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Voulez-vous définir une limite de temps ?"
+        android:textColor="@color/black"
+        android:translationX="50dp" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:translationX="70dp" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:text="FIN DE LA PARTIE"
+        android:textColor="@color/black"
+        android:translationX="50dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:translationX="50dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/duree"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:translationX="50dp"
+        android:visibility="invisible"/>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:inputType="number"
+        android:maxLength="3"
+        android:text=""
+        android:textColor="@color/black"
+        android:textColorLink="#03A9F4"
+        android:textCursorDrawable="@color/purple_700"
+        android:translationX="270dp"
+        android:visibility="invisible" />
+
+
+</FrameLayout>
