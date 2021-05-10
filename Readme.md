@@ -6,7 +6,7 @@ Kubilay Alpaslan
 Oualid Ramdani
 
 **Utilisation :**
-Code -> Download zip  [(ou cliquer ici)](https://github.com/KetchupOnWaffles/chess/archive/refs/heads/main.zip)
+Code -> Download zip  [(ou cliquer ici)](https://github.com/KetchupOnWaffles/chess-info-h2001/archive/refs/heads/main.zip)
 Extraire le zip
 Ouvrir dans Android Studio et run sur un téléphone ou émulateur
 
@@ -50,3 +50,10 @@ L’application développée est intuitive et facile à utiliser même pour les 
 L’application se démarque aussi par son côté ludique. En effet, dès qu'une pièce est déplacée, ou que le jeu est gagné ou perdu, l'application émet un son.
 
 Lorsque la partie est terminée, soit parce que le temps s'est écoulé, soit parce que le roi est en position d'échec et mat ou qu'il y a égalité, une nouvelle fenêtre affiche le gagnant, le temps total écoulé durant la partie et permet de redémarrer le jeu. 
+
+![screen1](https://i.ibb.co/xz9HD1W/imagedame.jpg)
+![screen2](https://i.ibb.co/hYfTg24/imagedebut.jpg)
+![screen3](https://i.ibb.co/JxbKhvV/imageechec.jpg)
+![screen4](https://i.ibb.co/RChY6hV/imagefin.jpg)
+![screen5](https://i.ibb.co/W6nR4LC/imagefou.jpg)
+![screen6](https://i.ibb.co/PF69JQy/imagetemps.jpg)
